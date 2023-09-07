@@ -14,7 +14,7 @@ export default function PartnerBrand () {
         return (
           <img
             key={brandIcon.id}
-            style={{margin: '16px', width: `${brandIcon.width}`, height: `${brandIcon.height}`}}
+            style={{margin: '15px 70px 0px 18px', width: `${brandIcon.width}`, height: `${brandIcon.height}`}}
             src={source}
             alt=''
           />

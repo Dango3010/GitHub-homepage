@@ -1,10 +1,10 @@
 import './App.css';
-import TextAndOneImage from './components/largerComponents/Text&OneImage'
+import FirstPortion from './components/bigPortions/FirstPortion'
 
 function App() {
   return (
     <div className="App">
-      <TextAndOneImage />
+      <FirstPortion />
     </div>
   );
 }

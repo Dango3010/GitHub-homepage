@@ -1,0 +1,29 @@
+.mainLayout {
+  background-image: url(/public/images/hero-bg.png);
+  background-size: cover;
+}
+
+.contentOne {
+  margin: 80px
+}
+
+.flexLayoutOne {
+  display: flex;
+  flex-direction: row;
+}
+
+.contentOnePortion {
+  padding-top: 200px;
+  margin-top: 400px;
+  margin-left: -370px;
+}
+
+.brandPortion {
+  padding-top: 200px;
+}
+
+/* .flexLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

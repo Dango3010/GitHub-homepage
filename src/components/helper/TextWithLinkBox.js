@@ -5,16 +5,16 @@ import LinkBox from './LinkBox'
 export default function TextWithLinkBox() {
 
   return (
-    <div className='firstLayout'>
+    <div className='textBoxLayout'>
       <h1
         className="h0-mktg mt-sm-6 mt-md-11 mt-lg-9 mb-2 mb-sm-4 position-relative z-2 
-        firstTitle"
+        textBoxTitle"
       >
         Let's build from here
       </h1>
       <p
         className="f1-mktg col-11 col-lg-10 text-normal color-fg-muted mr-lg-n4 mb-3 mb-md-4 mb-md-7 position-relative z-1
-        firstText"
+        textBoxText"
       >
         The AI-powered developer platform to build, scale, and deliver secure software.
       </p>

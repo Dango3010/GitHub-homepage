@@ -1,14 +1,13 @@
-.firstLayout {
+.textBoxLayout {
   text-align: initial;
-  background-color: black;
 }
 
-.firstTitle {
+.textBoxTitle {
   color: white;
   font-size: 80px;
 }
 
-.firstText {
+.textBoxText {
   color: #6E7681;
   font-size: 40px;
 }
@@ -39,7 +38,6 @@
   padding: 20px;
   margin-left: 50px;
   color: white;
-  background-color: black;
   border-radius: 9px;
   text-decoration: none;
   border: 1px solid #6e40c9
