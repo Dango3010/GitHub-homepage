@@ -2,6 +2,7 @@ import React from 'react';
 import '../../styles/helperStyle/textWithLinkBoxStyle.css'
 import LinkBox from './LinkBox'
 
+//the whole portion of "Let's build from here", including signup boxes 
 export default function TextWithLinkBox() {
 
   return (

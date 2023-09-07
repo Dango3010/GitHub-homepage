@@ -1,7 +1,8 @@
 import React from 'react';
-import '../../styles/largerComponentStyle/text&OneImageStyle.css';
+import '../../styles/largerComponentStyle/textAndOneImageStyle.css';
 import TextWithLink from '../helper/TextWithLink';
 
+//any description with an image on the right/below
 export default function TextAndOneImage () {
 
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import LinkBox from './LinkBox'
 
+//description above a link (with a name)
 export default function TextWithLink ({
   spanText, otherText, link, linkText,
   divClass, h2Class, spanClass, linkClass

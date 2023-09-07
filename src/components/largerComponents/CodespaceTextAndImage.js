@@ -1,8 +1,9 @@
 import React from 'react';
-import '../../styles/largerComponentStyle/text&ThreeImageStyle.css'
+import '../../styles/largerComponentStyle/codespaceTextAndImageStyle.css'
 import TextWithLink from '../helper/TextWithLink'
 
-export default function TextAndThreeImage () {
+//includes text on the left, and the three images on the right of GitHub-Codespaces portion
+export default function CodespaceTextAndImage () {
 
   return (
     <div className='threeLayout'>
