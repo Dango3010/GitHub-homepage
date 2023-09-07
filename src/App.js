@@ -1,10 +1,10 @@
 import './App.css';
-import BranchPara from './components/helper/BranchPara'
+import TextWithLink from './components/helper/TextWithLink'
 
 function App() {
   return (
     <div className="App">
-      <BranchPara />
+      <TextWithLink />
     </div>
   );
 }
