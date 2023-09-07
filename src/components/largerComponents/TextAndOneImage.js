@@ -1,25 +1,35 @@
 import React from 'react';
-import '../../styles/largerComponentStyle/textAndOneImageStyle.css';
+import '../../styles/textAndOneImage/githubCopiloPart.css'
 import TextWithLink from '../helper/TextWithLink';
 
 //any description with an image on the right/below
-export default function TextAndOneImage () {
+export default function TextAndOneImage ({
+  spanText, otherText, link, linkText, 
+  imageName,
+  oneLayout, oneImage,
+  divClass, h2Class, spanClass, linkClass
+}) {
+
+  const imageSrc = `images/${imageName}`
 
   return (
-    <div className='oneLayout'>
+    <div className={oneLayout}>
       <TextWithLink 
-        spanText='GitHub Copilot'
-        otherText=' is your AI pair programmer that empowers you to complete tasks 55% faster by turning natural language prompts into coding suggestions.'
-        link='https://github.com/features/copilot'
-        linkText='Meet GitHub Copilot'
+        spanText={spanText}
+        otherText={otherText}
+        link={link}
+        linkText={linkText}
+
+        divClass={divClass}
+        h2Class={h2Class}
+        spanClass={spanClass}
+        linkClass={linkClass}
       />
-      <div>
-        <img 
-          className='oneImage'
-          src='images/copilot-pic.png'
-          alt=""
-        />
-      </div>
+      <img 
+        className={oneImage}
+        src={imageSrc}
+        alt=""
+      />
     </div>
   )
 }

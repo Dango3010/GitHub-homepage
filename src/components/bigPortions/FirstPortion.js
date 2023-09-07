@@ -5,7 +5,7 @@ import CurlyEdgeBox from '../helper/CurlyEdgeBox';
 import TextWithLinkBox from '../helper/TextWithLinkBox';
 import BranchPara from '../helper/BranchPara'
 
-// content from 'gitHub universe' to 'the globe'
+// content from 'gitHub universe' to 'the globe' image
 export default function FirstPortion () {
 
   return (

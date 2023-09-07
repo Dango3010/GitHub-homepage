@@ -1,0 +1,55 @@
+/* TextAndOneImage style */
+.copilotLayout {
+  border: 1px solid #001E00;
+  background-color: #202123;
+  border-radius: 15px;
+  width: 13in;
+  height: 4.3in;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copilotLayout:hover {
+  background-color: #001E00
+}
+
+.copilotImage {
+  margin: 40px;
+  width: 90%;
+  height: auto;
+}
+
+/* TextWithLink style */
+.copilotSecondLayout {
+  text-align: initial;
+  margin: 55px;
+}
+
+.copilotH2 {
+  font-size: 25px;
+  line-height: 37px;
+  width: 482px;
+  color: #6E7681;
+}
+
+.copilotSpan {
+  color: white;
+}
+
+.copilotLink {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  padding-top: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: text;
+}
+
+.copilotLink:hover {
+  text-decoration: underline;
+}
+
