@@ -5,6 +5,7 @@ import CurlyEdgeBox from '../helper/CurlyEdgeBox';
 import TextWithLinkBox from '../helper/TextWithLinkBox';
 import BranchPara from '../helper/BranchPara'
 
+// content from 'gitHub universe' to 'the globe'
 export default function FirstPortion () {
 
   return (
@@ -33,6 +34,12 @@ export default function FirstPortion () {
               />
             </div>
           </div>  
+
+          <img
+            className='spaceShift'
+            src='images/hero-drone.webp'
+            alt=""
+          />
         </div>
 
         <img
