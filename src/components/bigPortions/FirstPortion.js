@@ -9,10 +9,10 @@ export default function FirstPortion () {
 
   return (
     <div className='mainLayout'>
-      <div className='contentOne'>
-        
+      <div className='contentOne'>  
         <div className='flexLayoutOne'>
           <img
+            className='flexImage'
             src='images/lines-hero.svg'
             alt=""
           />
@@ -32,7 +32,7 @@ export default function FirstPortion () {
                 otherText='Our AI-powered platform drives innovation with tools that boost developer velocity.'
               />
             </div>
-          </div>
+          </div>  
         </div>
 
         <img
@@ -40,7 +40,6 @@ export default function FirstPortion () {
           src='images/image-1.png'
           alt=""
         />
-
       </div>
     </div>
   )

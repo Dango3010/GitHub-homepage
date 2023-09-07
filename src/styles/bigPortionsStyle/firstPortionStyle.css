@@ -4,26 +4,24 @@
 }
 
 .contentOne {
-  margin: 80px
+  padding: 300px 100px 100px 100px
 }
 
 .flexLayoutOne {
   display: flex;
   flex-direction: row;
+  position: relative;
+}
+
+.flexImage {
+  position: absolute;
 }
 
 .contentOnePortion {
-  padding-top: 200px;
-  margin-top: 400px;
-  margin-left: -370px;
+  margin: 280px 0px 0px 70px;
 }
 
 .spaceApart {
   padding-top: 150px;
 }
 
-/* .flexLayout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
