@@ -1,5 +1,4 @@
 .linkLayout {
-  background-color: black;
   text-align: initial;
   width: 526px;
   margin: 15px;
@@ -10,8 +9,8 @@
 }
 
 .linkH2 {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 30px;
+  line-height: 37px;
   color: #6E7681;
 }
 
@@ -20,7 +19,7 @@
   text-transform: capitalize;
   color: white;
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
   cursor: text;
 }
