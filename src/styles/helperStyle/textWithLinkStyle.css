@@ -1,0 +1,50 @@
+.firstLayout {
+  text-align: initial;
+  background-color: black;
+}
+
+.firstTitle {
+  color: white;
+  font-size: 80px;
+}
+
+.firstText {
+  color: #6E7681;
+  font-size: 40px;
+}
+
+.inputText {
+  width: 219px;
+  height: 33px;
+  font-size: 20px;
+  padding: 13px;
+  border-radius: 9px;
+}
+
+.signUpButton {
+  width: 242px;
+  height: 63px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px;
+  color: white;
+  background-color: #6e40c9;
+  border-radius: 9px;
+  margin-left: -14px;
+}
+
+.anotherBox {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  margin-left: 50px;
+  color: white;
+  background-color: black;
+  border-radius: 9px;
+  text-decoration: none;
+  border: 1px solid #6e40c9
+}
+
+.anotherBox:hover {
+  border: 2px solid white 
+}

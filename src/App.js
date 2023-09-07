@@ -1,12 +1,14 @@
 import './App.css';
-import CurlyEdgeBox from './components/helper/CurlyEdgeBox';
+import TextWithLink from './components/helper/TextWithLink'
 
 function App() {
   return (
     <div className="App">
-      <CurlyEdgeBox />
+      <TextWithLink />
     </div>
   );
 }
 
 export default App;
+
+

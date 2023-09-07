@@ -1,5 +1,6 @@
 .curly-edge-box {
   background-color: black;
+  border: 1px solid white;
   width: 580px;
   height: 93px;
   border-radius: 46px;
