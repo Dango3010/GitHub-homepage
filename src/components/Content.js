@@ -12,11 +12,16 @@ export default function Content () {
       <div className='contentStyle'>
         <FirstPortion />
         <img
-          className='spaceApart'
+          className='contentSpaceApart'
           src='images/image-1.png'
           alt=""
         />
         <SecondPortion />
+        <img
+          className='contentSpaceApart issueImage'
+          src='images/issues-plan.png'
+          alt=""
+        />
       </div>
     </div>
   )

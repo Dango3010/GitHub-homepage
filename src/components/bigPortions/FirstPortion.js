@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/bigPortionsStyle/firstPortionStyle.css';
+
 import PartnerBrand from '../helper/PartnerBrand'
 import CurlyEdgeBox from '../helper/CurlyEdgeBox';
 import TextWithLinkBox from '../helper/TextWithLinkBox';

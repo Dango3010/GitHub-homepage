@@ -7,6 +7,7 @@ import BranchPara from '../helper/BranchPara'
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
 import GitActionAndMobile from '../largerComponents/GitActionAndMobile'
 
+// from GitHub CodeSpaces to Collaboration branch text
 export default function SecondPortion() {
 
   return (
@@ -47,6 +48,7 @@ export default function SecondPortion() {
           spanText='Supercharge collaboration. '
           otherText='We provide unlimited repositories, best-in-class version control, and the world’s most powerful open source community—so your team can work more efficiently together.'
           spanTextStyle='collaSpan'
+          branchTextWidth='branchTextWidth'
         />
       </div>
     </div>

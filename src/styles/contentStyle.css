@@ -6,3 +6,12 @@
 .contentStyle {
   padding: 110px 100px 100px 100px;
 }
+
+.contentSpaceApart {
+  padding-top: 80px;
+}
+
+.issueImage {
+  width: 1280px;
+  height: 768px;
+}
