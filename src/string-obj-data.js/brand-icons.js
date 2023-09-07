@@ -1,38 +1,38 @@
 const brandIcons = [
   {
     id: 1,
-    width: '109px',
-    height: '64px',
+    width: '99px',
+    height: '54px',
     iconName: 'stripe.svg'
   },
   {
     id: 2,
-    width: '151px',
-    height: '64px',
+    width: '141px',
+    height: '54px',
     iconName: 'pinterest.svg'
   },
   {
     id: 3,
-    width: '127px',
-    height: '64px',
+    width: '117px',
+    height: '54px',
     iconName: 'kpmg.svg'
   },
   {
     id: 4,
-    width: '189px',
-    height: '64px',
+    width: '179px',
+    height: '54px',
     iconName: 'mercedes.svg'
   },
   {
     id: 5,
-    width: '93px',
-    height: '52px',
+    width: '83px',
+    height: '42px',
     iconName: 'pg.svg'
   },
   {
     id: 6,
-    width: '183px',
-    height: '52px',
+    width: '173px',
+    height: '42px',
     iconName: 'telus.svg'
   }
 ]

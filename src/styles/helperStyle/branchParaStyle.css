@@ -1,6 +1,6 @@
 .branchLayout {
   text-align: initial;
-  width: 651px;
+  width: 900px;
   margin: 15px;
 }
 
@@ -16,5 +16,5 @@
 .h3 {
   color: white;
   font-size: 48px;
-  margin-top: 25px;
+  margin: 25px 0px 0px 0px;
 }

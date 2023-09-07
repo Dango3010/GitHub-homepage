@@ -3,25 +3,44 @@ import '../../styles/bigPortionsStyle/firstPortionStyle.css';
 import PartnerBrand from '../helper/PartnerBrand'
 import CurlyEdgeBox from '../helper/CurlyEdgeBox';
 import TextWithLinkBox from '../helper/TextWithLinkBox';
+import BranchPara from '../helper/BranchPara'
 
 export default function FirstPortion () {
 
   return (
     <div className='mainLayout'>
       <div className='contentOne'>
+        
         <div className='flexLayoutOne'>
           <img
             src='images/lines-hero.svg'
             alt=""
           />
+          
           <div className='contentOnePortion'>
             <CurlyEdgeBox />
             <TextWithLinkBox />
-            <div className='brandPortion'>
+            
+            <div className='spaceApart'>
               <PartnerBrand />
+            </div>
+            
+            <div className='spaceApart'>
+              <BranchPara 
+                title='Productivity'
+                spanText='Accelerate high-quality software development. '
+                otherText='Our AI-powered platform drives innovation with tools that boost developer velocity.'
+              />
             </div>
           </div>
         </div>
+
+        <img
+          className='spaceApart'
+          src='images/image-1.png'
+          alt=""
+        />
+
       </div>
     </div>
   )
