@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../styles/textAndOneImage/githubCopiloPart.css'
+import '../../styles/textAndOneImage/gitActionAndMobileStyle.css'
+
 import TextWithLink from '../helper/TextWithLink';
 
 //any description with an image on the right/below

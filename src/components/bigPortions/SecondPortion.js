@@ -3,6 +3,7 @@ import '../../styles/bigPortionsStyle/secondPortionStyle.css';
 import CodespaceTextAndImage from '../largerComponents/CodespaceTextAndImage'
 import DidYouKnow from '../helper/DidYouKnow'
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
+import GitActionAndMobile from '../largerComponents/GitActionAndMobile'
 
 export default function SecondPortion() {
 
@@ -35,6 +36,8 @@ export default function SecondPortion() {
         spanClass='copilotSpan'
         linkClass='copilotLink'
       />
+
+      <GitActionAndMobile />
     </div>
   )
 }

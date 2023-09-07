@@ -1,6 +1,8 @@
 import React from 'react';
-import LinkBox from './LinkBox'
 import '../../styles/textAndOneImage/githubCopiloPart.css'
+import '../../styles/textAndOneImage/gitActionAndMobileStyle.css'
+
+import LinkBox from './LinkBox'
 
 //description above a link (with a name)
 export default function TextWithLink ({
