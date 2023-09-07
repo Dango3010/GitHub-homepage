@@ -1,10 +1,10 @@
 import './App.css';
-import TextWithLink from './components/helper/TextWithLink'
+import TextWithImage from './components/largerComponents/TextWithImage'
 
 function App() {
   return (
     <div className="App">
-      <TextWithLink />
+      <TextWithImage />
     </div>
   );
 }

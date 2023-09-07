@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/helperStyle/textWithLinkBoxStyle.css'
 import LinkBox from './LinkBox'
 
-export default function TextWithLinkBox({ title, text }) {
+export default function TextWithLinkBox() {
 
   return (
     <div className='firstLayout'>
