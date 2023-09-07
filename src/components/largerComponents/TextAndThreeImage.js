@@ -14,7 +14,7 @@ export default function TextAndThreeImage () {
       />
       <div>
         <img 
-          className='textImage'
+          className='textImageOne'
           src='images/illo-ports.png'
           alt=""
         />
@@ -24,7 +24,7 @@ export default function TextAndThreeImage () {
           alt=""
         />
         <img 
-          className='textImage'
+          className='textImageTwo'
           src='images/illo-context-menu.png'
           alt=""
         />

@@ -1,6 +1,5 @@
 .linkLayout {
   text-align: initial;
-  width: 526px;
   margin: 15px;
 }
 
@@ -9,8 +8,9 @@
 }
 
 .linkH2 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 37px;
+  width: 570px;
   color: #6E7681;
 }
 

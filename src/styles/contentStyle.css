@@ -1,0 +1,8 @@
+.mainLayout {
+  background-image: url(/public/images/hero-bg.png);
+  background-size: cover;
+}
+
+.contentStyle {
+  padding: 110px 100px 0px 100px;
+}

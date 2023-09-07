@@ -9,45 +9,35 @@ import BranchPara from '../helper/BranchPara'
 export default function FirstPortion () {
 
   return (
-    <div className='mainLayout'>
-      <div className='contentOne'>  
-        <div className='flexLayoutOne'>
-          <img
-            className='flexImage'
-            src='images/lines-hero.svg'
-            alt=""
-          />
-          
-          <div className='contentOnePortion'>
-            <CurlyEdgeBox />
-            <TextWithLinkBox />
-            
-            <div className='spaceApart'>
-              <PartnerBrand />
-            </div>
-            
-            <div className='spaceApart'>
-              <BranchPara 
-                title='Productivity'
-                spanText='Accelerate high-quality software development. '
-                otherText='Our AI-powered platform drives innovation with tools that boost developer velocity.'
-              />
-            </div>
-          </div>  
-
-          <img
-            className='spaceShift'
-            src='images/hero-drone.webp'
-            alt=""
+    <div className='flexLayoutOne'>
+      <img
+        className='flexImage'
+        src='images/lines-hero.svg'
+        alt=""
+      />
+      
+      <div className='contentOnePortion'>
+        <CurlyEdgeBox />
+        <TextWithLinkBox />
+        
+        <div className='spaceApart'>
+          <PartnerBrand />
+        </div>
+        
+        <div className='spaceApart'>
+          <BranchPara 
+            title='Productivity'
+            spanText='Accelerate high-quality software development. '
+            otherText='Our AI-powered platform drives innovation with tools that boost developer velocity.'
           />
         </div>
+      </div>  
 
-        <img
-          className='spaceApart'
-          src='images/image-1.png'
-          alt=""
-        />
-      </div>
+      <img
+        className='spaceShift'
+        src='images/hero-drone.webp'
+        alt=""
+      />
     </div>
   )
 }

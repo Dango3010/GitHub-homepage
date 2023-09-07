@@ -1,10 +1,10 @@
 import './App.css';
-import FirstPortion from './components/bigPortions/FirstPortion'
+import Content from './components/Content';
 
 function App() {
   return (
     <div className="App">
-      <FirstPortion />
+      <Content />
     </div>
   );
 }

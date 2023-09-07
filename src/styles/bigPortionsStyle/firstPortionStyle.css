@@ -1,12 +1,3 @@
-.mainLayout {
-  background-image: url(/public/images/hero-bg.png);
-  background-size: cover;
-}
-
-.contentOne {
-  padding: 110px 100px 0px 100px;
-}
-
 .spaceShift {
   width: 20%;
   height: 20%;
