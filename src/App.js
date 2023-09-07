@@ -1,10 +1,10 @@
 import './App.css';
-import DidYouKnow from './components/helper/DidYouKnow'
+import TextAndOneImage from './components/largerComponents/Text&OneImage'
 
 function App() {
   return (
     <div className="App">
-      HIIII
+      <TextAndOneImage />
     </div>
   );
 }

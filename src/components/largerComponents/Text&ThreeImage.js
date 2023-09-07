@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../styles/largerComponentStyle/textWithImageStyle.css'
+import '../../styles/largerComponentStyle/text&ThreeImageStyle.css'
 import TextWithLink from '../helper/TextWithLink'
 
-export default function TextWithImage () {
+export default function TextAndThreeImage () {
 
   return (
     <div className='textLayout'>

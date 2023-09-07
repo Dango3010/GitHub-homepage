@@ -1,0 +1,12 @@
+.oneLayout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 180px
+}
+
+.oneImage {
+  width: 300px;
+  height: 220px
+}
+
