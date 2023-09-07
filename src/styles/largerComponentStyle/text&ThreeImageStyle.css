@@ -1,4 +1,4 @@
-.textLayout {
+.threeLayout {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -7,19 +7,48 @@
   margin: 0px 36px;
 }
 
-.textImageOne {
+.threeImageOne {
   width: 60%;
   height: auto;
   margin-bottom: -100px;
 }
 
-.textImageTwo {
+.threeImageTwo {
   width: 60%;
   height: auto;
 }
 
-.textCursor {
+.threeCursor {
   width: 30px;
   height: auto; 
 }
 
+.threeDivClass {
+  text-align: initial;
+  margin: 15px;
+}
+
+.threeH2Class {
+  font-size: 25px;
+  line-height: 37px;
+  width: 570px;
+  color: #6E7681;
+}
+
+.threeSpanClass {
+  color: white;
+}
+
+.threeLinkClass {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  padding-top: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: text;
+}
+
+.threeLinkClass:hover {
+  text-decoration: underline;
+}

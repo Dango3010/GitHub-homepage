@@ -5,26 +5,31 @@ import TextWithLink from '../helper/TextWithLink'
 export default function TextAndThreeImage () {
 
   return (
-    <div className='textLayout'>
+    <div className='threeLayout'>
       <TextWithLink 
         spanText='GitHub Codespaces'
         otherText=' offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.'
         link='https://github.com/features/codespaces'
         linkText='Check out GitHub Codespaces'
+
+        divClass='threeDivClass'
+        h2Class='threeH2Class'
+        spanClass='threeSpanClass'
+        linkClass='threeLinkClass'
       />
       <div>
         <img 
-          className='textImageOne'
+          className='threeImageOne'
           src='images/illo-ports.png'
           alt=""
         />
         <img 
-          className='textCursor'
+          className='threeCursor'
           src='images/illo-cursor.png'
           alt=""
         />
         <img 
-          className='textImageTwo'
+          className='threeImageTwo'
           src='images/illo-context-menu.png'
           alt=""
         />

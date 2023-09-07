@@ -1,16 +1,18 @@
 import React from 'react';
-import '../../styles/helperStyle/textWithLinkStyle.css'
 import LinkBox from './LinkBox'
 
-export default function TextWithLink ({spanText, otherText, link, linkText}) {
+export default function TextWithLink ({
+  spanText, otherText, link, linkText,
+  divClass, h2Class, spanClass, linkClass
+}) {
 
   return (
-    <div className='linkLayout'>
-      <h2 className='linkH2'>
-        <span className='linkSpan'>{spanText}</span>{otherText}
+    <div className={divClass}>
+      <h2 className={h2Class}>
+        <span className={spanClass}>{spanText}</span>{otherText}
       </h2>
       <LinkBox
-        className='linkStyle'
+        className={linkClass}
         text={linkText}
         link={link}
       />
