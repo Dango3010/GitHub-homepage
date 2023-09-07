@@ -1,10 +1,10 @@
 import './App.css';
-import TextWithLink from './components/helper/TextWithLink'
+import PartnerBrand from './components/helper/PartnerBrand'
 
 function App() {
   return (
     <div className="App">
-      <TextWithLink />
+      <PartnerBrand />
     </div>
   );
 }
