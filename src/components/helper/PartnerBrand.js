@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/helperStyle/partnerBrandStyle.css'
-import brandIcons from '../../string-obj-data.js/brand-icons'
+import brandIcons from '../../string-obj-data/brand-icons'
 
 //introduce all brand partners
 export default function PartnerBrand () {

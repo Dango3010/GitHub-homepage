@@ -1,7 +1,9 @@
 import React from 'react';
 import '../../styles/bigPortionsStyle/secondPortionStyle.css';
+
 import CodespaceTextAndImage from '../largerComponents/CodespaceTextAndImage'
 import DidYouKnow from '../helper/DidYouKnow'
+import BranchPara from '../helper/BranchPara'
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
 import GitActionAndMobile from '../largerComponents/GitActionAndMobile'
 
@@ -38,6 +40,15 @@ export default function SecondPortion() {
       />
 
       <GitActionAndMobile />
+
+      <div className='collaborationStyle'>
+        <BranchPara 
+          title='Collaboration'
+          spanText='Supercharge collaboration. '
+          otherText='We provide unlimited repositories, best-in-class version control, and the world’s most powerful open source community—so your team can work more efficiently together.'
+          spanTextStyle='collaSpan'
+        />
+      </div>
     </div>
   )
 }

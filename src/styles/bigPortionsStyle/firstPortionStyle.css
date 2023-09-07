@@ -1,8 +1,3 @@
-.spaceShift {
-  width: 20%;
-  height: 20%;
-}
-
 .flexLayoutOne {
   display: flex;
   flex-direction: row;
@@ -21,3 +16,6 @@
   padding-top: 150px;
 }
 
+.producSpan {
+  color: #7ee787;
+}

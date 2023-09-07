@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/contentStyle.css'
+
 import FirstPortion from './bigPortions/FirstPortion';
 import SecondPortion from './bigPortions/SecondPortion';
 

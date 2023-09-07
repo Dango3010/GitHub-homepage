@@ -1,5 +1,11 @@
-/* TextAndOneImage style */
-.acMobileLayout {
+/* flexbox for both tabs */
+.flexTab {
+  display: flex;
+  flex-direction: row;
+}
+
+/* TextAndOneImage style - for GitHub-Actions tab */
+.actionLayout {
   border: 1px solid #001E00;
   background-color: #161B22;
   border-radius: 15px;
@@ -10,23 +16,51 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+} 
 
-.acMobileLayout:hover {
+.actionLayout:hover {
   background-color: #001E00
-}
+} 
 
-.acMobileImage {
+.actionImage {
   width: 100%;
   height: auto;
 }
 
-/* TextWithLink style */
-.acMobileSecondLayout {
+.actionSecondLayout {
   text-align: initial;
-  margin: 16px;
+  margin: 28px;
+} /* TextWithLink style */
+
+/* TextAndOneImage style - for GitHub-Mobile tab */
+.mobileLayout {
+  border: 1px solid #001E00;
+  background-color: #161B22;
+  border-radius: 15px;
+  width: 6.5in;
+  height: 7in;
+  margin-top: 40px;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
+.mobileLayout:hover {
+  background-color: #001E00
+}
+
+.mobileImage {
+  width: 110%;
+  height: auto;
+}
+
+.mobileSecondLayout {
+  text-align: initial;
+  margin: 41px;
+} /* TextWithLink style */
+
+/* TextWithLink style - for both tabs */
 .acMobileH2 {
   font-size: 25px;
   line-height: 37px;
