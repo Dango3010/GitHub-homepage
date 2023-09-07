@@ -1,10 +1,10 @@
 import './App.css';
-import PartnerBrand from './components/helper/PartnerBrand'
+import BranchPara from './components/helper/BranchPara'
 
 function App() {
   return (
     <div className="App">
-      <PartnerBrand />
+      <BranchPara />
     </div>
   );
 }

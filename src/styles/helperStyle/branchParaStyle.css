@@ -1,0 +1,21 @@
+.branchLayout {
+  background-color: black;
+  text-align: initial;
+  width: 651px;
+  margin: 15px;
+}
+
+.h2 {
+  color: white;
+  font-size: 24px;
+}
+
+.span {
+  color: #7ee787;
+}
+
+.h3 {
+  color: white;
+  font-size: 48px;
+  margin-top: 25px;
+}
