@@ -1,11 +1,11 @@
 /* flexbox for both tabs */
-.flexTab {
+.disPullFlexTab {
   display: flex;
   flex-direction: row;
 }
 
-/* TextAndOneImage style - for GitHub-Actions tab */
-.actionLayout {
+/* TextAndOneImage style - for GitHub-Discussions tab */
+.discussLayout {
   border: 1px solid #001E00;
   background-color: #161B22;
   border-radius: 15px;
@@ -18,22 +18,22 @@
   flex-direction: column;
 } 
 
-.actionLayout:hover {
+.discussLayout:hover {
   background-color: #001E00
 } 
 
-.actionImage {
+.discussImage {
   width: 100%;
   height: auto;
 }
 
-.actionSecondLayout {
+.discussSecondLayout {
   text-align: initial;
-  margin: 28px;
+  margin: 57px;
 } /* TextWithLink style */
 
-/* TextAndOneImage style - for GitHub-Mobile tab */
-.mobileLayout {
+/* TextAndOneImage style - for GitHub-Pull-Requests tab */
+.pullLayout {
   border: 1px solid #001E00;
   background-color: #161B22;
   border-radius: 15px;
@@ -46,33 +46,33 @@
   flex-direction: column;
 }
 
-.mobileLayout:hover {
+.pullLayout:hover {
   background-color: #001E00
 }
 
-.mobileImage {
-  width: 110%;
+.pullImage {
+  width: 100%;
   height: auto;
 }
 
-.mobileSecondLayout {
+.pullSecondLayout {
   text-align: initial;
-  margin: 41px;
+  margin: 57px;
 } /* TextWithLink style */
 
 /* TextWithLink style - for both tabs */
-.acMobileH2 {
+.disPullH2 {
   font-size: 25px;
   line-height: 37px;
   width: 482px;
   color: #88888D;
 }
 
-.acMobileSpan {
+.disPullSpan {
   color: white;
 }
 
-.acMobileLink {
+.disPullLink {
   font-weight: bold;
   text-transform: capitalize;
   color: white;
@@ -82,7 +82,7 @@
   cursor: text;
 }
 
-.acMobileLink:hover {
+.disPullLink:hover {
   text-decoration: underline;
 }
 

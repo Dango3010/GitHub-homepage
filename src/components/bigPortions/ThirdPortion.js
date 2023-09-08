@@ -3,6 +3,7 @@ import '../../styles/bigPortionsStyle/thirdPortionStyle.css';
 
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
 import DidYouKnow from '../helper/DidYouKnow'
+import GitDicussAndPull from '../largerComponents/GitDicussAndPull'
 
 export default function ThirdPortion() {
 
@@ -37,6 +38,8 @@ export default function ThirdPortion() {
           />
         </div>
       </div>
+
+      <GitDicussAndPull/>
 
     </div>
   )
