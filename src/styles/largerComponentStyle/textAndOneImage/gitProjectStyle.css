@@ -1,8 +1,8 @@
-/* TextAndOneImage style */
+/* GitHub-Issues-and-GitHub-Projects section style */
 .projectLayout {
   width: 13in;
   height: 4.3in;
-  
+
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -45,4 +45,3 @@
 .projectLink:hover {
   text-decoration: underline;
 }
-

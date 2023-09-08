@@ -1,10 +1,11 @@
 import React from "react";
 import '../../styles/helperStyle/curlyEdgeBoxStyle.css'
 
+// the Github-Universe ad on top of the page
 export default function CurlyEdgeBox() {
   return (
     <div>
-      <a 
+      <a
         className="curly-edge-box"
         href='https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=bannerlo'
       >
@@ -13,9 +14,19 @@ export default function CurlyEdgeBox() {
           src='images/eyebrow-23@2x.png'
           alt=""
         />
+
+        {/* the text next to the colorful-cat icon */}
         <div className="textBox">
-          <p className="firstBoxText">GitHub Universe: Dive in to AI, security, and DevEx</p>
-          <p style={{ color: '#6E7681' }}>Get your tickets now to join us on Nov. 8-9.</p>
+          <p
+            className="firstBoxText"
+          >
+            GitHub Universe: Dive in to AI, security, and DevEx
+          </p>
+          <p
+            style={{ color: '#6E7681' }}
+          >
+            Get your tickets now to join us on Nov. 8-9.
+          </p>
         </div>
       </a>
     </div>

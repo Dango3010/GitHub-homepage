@@ -1,13 +1,13 @@
 import React from 'react';
-import '../../styles/textAndOneImage/githubCopiloPart.css'
-import '../../styles/textAndOneImage/gitActionAndMobileStyle.css'
-import '../../styles/textAndOneImage/gitProjectStyle.css'
+import '../../styles/largerComponentStyle/textAndOneImage/githubCopiloPart.css'
+import '../../styles/largerComponentStyle/textAndOneImage/gitActionAndMobileStyle.css'
+import '../../styles/largerComponentStyle/textAndOneImage/gitProjectStyle.css'
 
 import TextWithLink from '../helper/TextWithLink';
 
-//any description with an image on the right/below
-export default function TextAndOneImage ({
-  spanText, otherText, link, linkText, 
+//any description with a link and an image on the right/below
+export default function TextAndOneImage({
+  spanText, otherText, link, linkText,
   imageName,
   oneLayout, oneImage,
   divClass, h2Class, spanClass, linkClass
@@ -17,7 +17,8 @@ export default function TextAndOneImage ({
 
   return (
     <div className={oneLayout}>
-      <TextWithLink 
+      {/* description with a link */}
+      <TextWithLink
         spanText={spanText}
         otherText={otherText}
         link={link}
@@ -28,7 +29,9 @@ export default function TextAndOneImage ({
         spanClass={spanClass}
         linkClass={linkClass}
       />
-      <img 
+
+      {/* an image, either on the right or below */}
+      <img
         className={oneImage}
         src={imageSrc}
         alt=""

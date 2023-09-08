@@ -1,11 +1,11 @@
-/* TextAndOneImage style */
+/* Git-copilot section style */
 .copilotLayout {
   border: 1px solid #001E00;
   background-color: #161B22;
   border-radius: 15px;
   width: 13in;
   height: 4.3in;
-  
+
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -52,4 +52,3 @@
 .copilotLink:hover {
   text-decoration: underline;
 }
-

@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/helperStyle/textWithLinkBoxStyle.css'
 import LinkBox from './LinkBox'
 
-//the whole portion of "Let's build from here", including signup boxes 
+//the whole portion of "Let's build from here", including signup boxes below the texts
 export default function TextWithLinkBox() {
 
   return (
@@ -19,7 +19,8 @@ export default function TextWithLinkBox() {
       >
         The AI-powered developer platform to build, scale, and deliver secure software.
       </p>
-      
+
+      {/* input for email address, submit button and trial link */}
       <input
         className="form-control f4-mktg width-full rounded-md-right-0 inputText"
         placeholder="Email address"

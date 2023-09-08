@@ -1,8 +1,8 @@
 import React from 'react';
 
-//a direct link with a name
-export default function linkBoxStyle ({ 
-  link, className, text, fontColor 
+//any direct link with a name
+export default function linkBoxStyle({
+  link, className, text, fontColor
 }) {
 
   return (

@@ -1,8 +1,9 @@
 import React from 'react';
-import '../../styles/textAndOneImage/gitBotAndScanStyle.css'
+import '../../styles/largerComponentStyle/textAndOneImage/gitBotAndScanStyle.css'
+
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
 
-// render GitHub-Actions and GitHub-Mobile tabs
+// render GitHub-Dependabot and GitHub-Code-scanning tabs
 export default function GitBotAndScan() {
 
   return (

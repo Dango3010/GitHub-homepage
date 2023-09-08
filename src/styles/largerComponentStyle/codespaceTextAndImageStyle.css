@@ -1,3 +1,4 @@
+/* git-codespace with 3 images section style */
 .threeLayout {
   display: flex;
   flex-direction: row;
@@ -20,7 +21,7 @@
 
 .threeCursor {
   width: 30px;
-  height: auto; 
+  height: auto;
 }
 
 .threeDivClass {

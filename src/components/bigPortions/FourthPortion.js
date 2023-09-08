@@ -5,18 +5,21 @@ import TextAndOneImage from '../largerComponents/TextAndOneImage'
 import DidYouKnow from '../helper/DidYouKnow'
 import GitBotAndScan from '../largerComponents/GitBotAndScan'
 
-export default function ThirdPortion() {
+// from building-steps tab to Dependabot-and-Code-scanning tabs
+export default function FourthPortion() {
 
   return (
     <div className='background'>
+      {/* building-steps tab */}
       <div className='fourthLayout'>
-        <img 
+        <img
           className='fourthImage'
           src='images/steps.png'
           alt=""
         />
       </div>
 
+      {/* GitHub Advanced Security introduction section and its image on the right */}
       <TextAndOneImage
         spanText='GitHub Advanced Security'
         otherText=' lets you gain visibility into your security posture, respond to threats proactively, and ship secure applications quickly.'
@@ -33,13 +36,14 @@ export default function ThirdPortion() {
         linkClass='projectLink'
       />
 
+      {/* didYouKnow 56 million projects and its branch image on the left */}
       <div className='flexLayoutThree'>
         <img
           src='images/git-branch-security.svg'
           alt=""
         />
         <div>
-          <DidYouKnow 
+          <DidYouKnow
             h2Text='56 million projects'
             h3Text='fixed vulnerabilities with GitHub2'
             fontColor='#9399F8'
@@ -47,6 +51,7 @@ export default function ThirdPortion() {
         </div>
       </div>
 
+      {/* Secret-scanning tab */}
       <TextAndOneImage
         spanText='Secret scanning'
         otherText=" automatically looks for partner patterns and prevents fraudulent use of accidentally committed secrets."
@@ -63,8 +68,8 @@ export default function ThirdPortion() {
         linkClass='copilotLink'
       />
 
+      {/* Dependabot-and-Code-scanning tabs */}
       <GitBotAndScan />
-
     </div>
   )
 }

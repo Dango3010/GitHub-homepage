@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../styles/textAndOneImage/gitActionAndMobileStyle.css'
+import '../../styles/largerComponentStyle/textAndOneImage/gitActionAndMobileStyle.css'
+
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
 
 // render GitHub-Actions and GitHub-Mobile tabs

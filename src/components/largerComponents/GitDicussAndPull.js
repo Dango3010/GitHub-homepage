@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../styles/textAndOneImage/gitDicussAndPullStyle.css'
+import '../../styles/largerComponentStyle/textAndOneImage/gitDicussAndPullStyle.css'
+
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
 
 // render GitHub-Discussion and GitHub-Pull-Requests tabs

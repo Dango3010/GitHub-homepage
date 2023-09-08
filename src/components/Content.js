@@ -6,20 +6,24 @@ import SecondPortion from './bigPortions/SecondPortion';
 import ThirdPortion from './bigPortions/ThirdPortion';
 import FourthPortion from './bigPortions/FourthPortion';
 
-// main content that includes all bigPortion components
-export default function Content () {
+// main content that includes all big portion components
+export default function Content() {
 
   return (
     <div className='mainLayout'>
       <div className='contentStyle'>
         <FirstPortion />
+
+        {/* the image that includes a small, purple globe on the right  */}
         <img
           className='contentSpaceApart'
           src='images/image-1.png'
           alt=""
         />
-        
+
         <SecondPortion />
+
+        {/* the list image of prototype, beta, launch */}
         <img
           className='contentSpaceApart issueImage'
           src='images/issues-plan.png'
@@ -27,8 +31,10 @@ export default function Content () {
         />
 
         <ThirdPortion />
+
         <FourthPortion />
-        
+
+        {/* the austronaut image */}
         <div className='footer'>
           <img
             src='images/astrocat.png'

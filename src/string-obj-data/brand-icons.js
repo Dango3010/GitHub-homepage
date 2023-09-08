@@ -1,3 +1,4 @@
+//list of details about brands for brand introduction section
 const brandIcons = [
   {
     id: 1,
