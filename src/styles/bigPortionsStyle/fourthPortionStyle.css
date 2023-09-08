@@ -1,0 +1,52 @@
+.fourthLayout {
+  border: 1px solid #001E00;
+  background-color: #161B22;
+  border-radius: 15px;
+  width: 13in;
+  height: 4.3in;
+  margin-top: 127px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourthLayout:hover {
+  background-color: #060939
+}
+
+.fourthImage {
+  width: 73%;
+  height: auto;
+}
+
+.fourthSecondImage {
+  width: 43%;
+  height: auto;
+  margin-bottom: 161px
+}
+
+/* git-scanning style */
+.scanningLayout {
+  border: 1px solid #001E00;
+  background-color: #161B22;
+  border-radius: 15px;
+  margin-top: 50px;
+  width: 13in;
+  height: 4.8in;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.scanningLayout:hover {
+  background-color: #060939
+}
+
+.scanningImage {
+  width: 47%;
+  height: auto;
+  margin-bottom: -8px
+}
+

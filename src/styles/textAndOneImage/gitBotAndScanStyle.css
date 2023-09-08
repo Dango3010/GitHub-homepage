@@ -1,0 +1,47 @@
+/* layout and images for Git-Bot */
+.botLayout {
+  border: 1px solid #001E00;
+  background-color: #161B22;
+  border-radius: 15px;
+  width: 6.5in;
+  height: 7in;
+  margin: 40px 40px 0px 0px;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.botLayout:hover {
+  background-color: #060939
+} 
+
+.botImage {
+  width: 100%;
+  height: auto;
+  margin-top: 10px
+}
+
+/* layout and images for Git-Scanning */
+.gitScanLayout {
+  border: 1px solid #001E00;
+  background-color: #161B22;
+  border-radius: 15px;
+  width: 6.5in;
+  height: 7in;
+  margin-top: 40px;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gitScanLayout:hover {
+  background-color: #060939
+}
+
+.gitScanImage {
+  width: 99%;
+  height: auto;
+}
+

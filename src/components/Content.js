@@ -4,6 +4,7 @@ import '../styles/contentStyle.css'
 import FirstPortion from './bigPortions/FirstPortion';
 import SecondPortion from './bigPortions/SecondPortion';
 import ThirdPortion from './bigPortions/ThirdPortion';
+import FourthPortion from './bigPortions/FourthPortion';
 
 // main content that includes all bigPortion components
 export default function Content () {
@@ -26,6 +27,14 @@ export default function Content () {
         />
 
         <ThirdPortion />
+        <FourthPortion />
+        
+        <div className='footer'>
+          <img
+            src='images/astrocat.png'
+            alt=''
+          />
+        </div>
       </div>
     </div>
   )

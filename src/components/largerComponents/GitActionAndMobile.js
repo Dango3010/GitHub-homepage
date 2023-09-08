@@ -3,7 +3,7 @@ import '../../styles/textAndOneImage/gitActionAndMobileStyle.css'
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
 
 // render GitHub-Actions and GitHub-Mobile tabs
-export default function SecondPortion() {
+export default function GitActionAndMobile() {
 
   return (
     <div className='flexTab'>
