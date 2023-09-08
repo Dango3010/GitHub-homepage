@@ -9,3 +9,34 @@
   align-items: center;
 }
 
+/* git-sponsors style */
+.sponsorLayout {
+  border: 1px solid #001E00;
+  background-color: #161B22;
+  border-radius: 15px;
+  margin-top: 50px;
+  width: 13in;
+  height: 4.3in;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sponsorLayout:hover {
+  background-color: #512622
+}
+
+.sponsorImage {
+  width: 46%;
+  height: auto;
+}
+
+.sponsorH2 {
+  font-size: 25px;
+  line-height: 37px;
+  width: 482px;
+  color: #88888D;
+  margin-bottom: 150px;
+}

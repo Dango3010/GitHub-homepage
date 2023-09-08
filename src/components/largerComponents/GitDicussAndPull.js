@@ -30,10 +30,10 @@ export default function GitDicussAndPull() {
         linkText='Check out pull requests'
         imageName='illu-pull-requests.png'
 
-        oneLayout='mobileLayout'
-        oneImage='mobileImage'
+        oneLayout='pullLayout'
+        oneImage='pullImage'
 
-        divClass='mobileSecondLayout'
+        divClass='pullSecondLayout'
         h2Class='disPullH2'
         spanClass='disPullSpan'
         linkClass='disPullLink'

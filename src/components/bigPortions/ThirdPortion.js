@@ -21,7 +21,7 @@ export default function ThirdPortion() {
 
         divClass='projectSecondLayout'
         h2Class='projectH2'
-        spanClass='projectSpan'
+        spanClass='projectSpan'github
         linkClass='projectLink'
       />
 
@@ -40,6 +40,22 @@ export default function ThirdPortion() {
       </div>
 
       <GitDicussAndPull/>
+
+      <TextAndOneImage
+        spanText='GitHub Sponsors'
+        otherText=' lets you support your favorite open source maintainers and projects.'
+        link='https://github.com/sponsors'
+        linkText='Invest with GitHub Sponsors'
+        imageName='git-sponsors.png'
+
+        oneLayout='sponsorLayout'
+        oneImage='sponsorImage'
+
+        divClass='copilotSecondLayout'
+        h2Class='sponsorH2'
+        spanClass='copilotSpan'
+        linkClass='copilotLink'
+      />
 
     </div>
   )
