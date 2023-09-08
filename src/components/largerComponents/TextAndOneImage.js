@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/textAndOneImage/githubCopiloPart.css'
 import '../../styles/textAndOneImage/gitActionAndMobileStyle.css'
+import '../../styles/textAndOneImage/gitProjectStyle.css'
 
 import TextWithLink from '../helper/TextWithLink';
 

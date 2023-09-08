@@ -1,0 +1,48 @@
+/* TextAndOneImage style */
+.projectLayout {
+  width: 13in;
+  height: 4.3in;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projectImage {
+  margin: 40px;
+  width: 43%;
+  height: auto;
+}
+
+/* TextWithLink style */
+.projectSecondLayout {
+  text-align: initial;
+  margin: 55px;
+}
+
+.projectH2 {
+  font-size: 25px;
+  line-height: 37px;
+  width: 482px;
+  color: #6E7681;
+}
+
+.projectSpan {
+  color: white;
+}
+
+.projectLink {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  padding-top: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: text;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
+

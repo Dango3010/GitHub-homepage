@@ -20,7 +20,9 @@ export default function SecondPortion() {
           alt=""
         />
         <div>
-          <DidYouKnow />
+          <DidYouKnow 
+            h2Text='22% increase'
+          />
         </div>
       </div>
 
