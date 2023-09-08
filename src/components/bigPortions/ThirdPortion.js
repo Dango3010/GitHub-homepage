@@ -3,6 +3,7 @@ import '../../styles/bigPortionsStyle/thirdPortionStyle.css';
 
 import TextAndOneImage from '../largerComponents/TextAndOneImage'
 import DidYouKnow from '../helper/DidYouKnow'
+import BranchPara from '../helper/BranchPara'
 import GitDicussAndPull from '../largerComponents/GitDicussAndPull'
 
 export default function ThirdPortion() {
@@ -57,6 +58,15 @@ export default function ThirdPortion() {
         linkClass='copilotLink'
       />
 
+      <div className='collaborationStyle'>
+        <BranchPara 
+          title='Security'
+          spanText='Embed security into the developer workflow. '
+          otherText="With GitHub, developers can secure their code in minutes and organizations can automatically comply with regulations."
+          spanColor='#9399F8'
+          branchTextWidth='10.7in'
+        />
+      </div>
     </div>
   )
 }

@@ -48,9 +48,9 @@ export default function SecondPortion() {
         <BranchPara 
           title='Collaboration'
           spanText='Supercharge collaboration. '
-          otherText='We provide unlimited repositories, best-in-class version control, and the world’s most powerful open source community—so your team can work more efficiently together.'
-          spanTextStyle='collaSpan'
-          branchTextWidth='branchTextWidth'
+          otherText="We provide unlimited repositories, best-in-class version control, and the world's most powerful open source community—so your team can work more efficiently together."
+          spanColor='#F3A18A'
+          branchTextWidth='11in'
         />
       </div>
     </div>

@@ -30,7 +30,7 @@ export default function FirstPortion () {
             title='Productivity'
             spanText='Accelerate high-quality software development. '
             otherText='Our AI-powered platform drives innovation with tools that boost developer velocity.'
-            spanTextStyle='producSpan'
+            spanColor='#7ee787'
           />
         </div>
       </div>
